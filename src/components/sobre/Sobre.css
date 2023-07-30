@@ -1,0 +1,34 @@
+#sobre .container{
+    margin: auto;
+}
+
+#sobre #quemsomos{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    max-width: 80vw;
+    margin: auto;
+}
+
+#sobre #quemsomos h2{
+    margin-bottom: 2rem;
+}
+
+#sobre #quemsomos p{
+    text-align: justify;
+}
+
+#sobre #quemsomos img{
+    width: 350px;
+}
+
+@media screen and (max-width: 700px) {
+    #sobre #quemsomos{
+        flex-direction: column-reverse;
+        row-gap: 20px;
+    }
+
+    #sobre #quemsomos img{
+        width: 100%;
+    }
+}

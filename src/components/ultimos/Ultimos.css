@@ -1,0 +1,51 @@
+section h2{
+    display: inline-flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-bottom: 1rem;
+}
+
+section > div{
+    padding: 2rem;
+}
+
+.card-text{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card-text i:not(:last-child){
+    color: rgb(255, 187, 0);
+}
+
+.card-text i:last-child{
+    color: grey;
+}
+
+.card-img-overlay p{
+    font-size: 1.5rem;
+    color: white;
+    border: 2px solid white;
+    padding: 0.7rem 1rem;
+    font-weight: 500;
+}
+
+.card-img-overlay{
+    background: #0000005d;
+    color: white;
+    padding-bottom: 10rem;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity .9s ease;
+    -webkit-transition: opacity .9s ease;
+    -moz-transition: opacity .9s ease;
+    -ms-transition: opacity .9s ease;
+    -o-transition: opacity .9s ease;
+}
+
+.card:hover .card-img-overlay{
+    opacity: 1;
+}

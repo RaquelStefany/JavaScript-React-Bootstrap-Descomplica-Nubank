@@ -1,0 +1,22 @@
+#contato form{
+    padding: 1rem 10rem 4rem;
+}
+
+#contato form h2{
+    margin-bottom: .5rem;
+}
+
+#contato form p{
+    margin-bottom: 2rem;
+    color: rgb(97, 97, 97);
+}
+
+#contato form textarea{
+    resize: none;
+}
+
+@media screen and (max-width: 700px) {
+    #contato form{
+        padding: 1rem 4rem 4rem;
+    }
+}

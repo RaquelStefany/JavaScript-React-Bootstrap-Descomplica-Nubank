@@ -1,0 +1,26 @@
+nav{
+    padding: 1rem 3rem !important;
+    font-size: 1.3rem;
+}
+
+nav .link{
+    color: grey;
+}
+
+.logo{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.options {
+  display: flex;
+  column-gap: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    nav{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
